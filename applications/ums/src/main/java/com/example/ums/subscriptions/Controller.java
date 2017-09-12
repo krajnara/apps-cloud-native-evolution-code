@@ -39,6 +39,7 @@ public class Controller {
         // BillingClient paymentCreator = new BillingClient(new RecurlyGateway());
         SendEmail emailSender = new SendEmail();
 
+        System.out.println("Using billing client " + paymentCreator.getClass().getName());
         new CreateSubscription(paymentCreator, emailSender, subscriptions)
                 .run(params.get("userId"), params.get("packageId"));
 

@@ -2,6 +2,7 @@ package com.example.subscriptions;
 
 import com.example.billing.BillingClient;
 import com.example.billing.ChargeUser;
+import com.example.billing.HttpBillingClient;
 import com.example.email.SendEmail;
 
 public class CreateSubscription {

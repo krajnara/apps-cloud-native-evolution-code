@@ -1,0 +1,8 @@
+#Mon Sep 11 11:45:15 IST 2017
+connection.gradle.distribution=GRADLE_DISTRIBUTION(WRAPPER)
+override.workspace.settings=true
+eclipse.preferences.version=1
+gradle.user.home=/Users/103209/.gradle/wrapper/dists/gradle-2.3-bin/a48v6zq5mdp1uyn9rwlj56945/gradle-2.3/bin
+connection.project.dir=
+offline.mode=false
+build.scans.enabled=false
